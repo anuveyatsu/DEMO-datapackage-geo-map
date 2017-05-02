@@ -1,12 +1,7 @@
 {
-  "name": "gep-map",
-  "title": "Example Geo (JSON) Data Package",
+  "name": "geojson-tutorial",
+  "title": "GeoJSON Tutorial",
   "version": "0.1.0",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/datasets/ex-geojson.git"
-  },
-  "license": "PDDL-1.0",
   "resources": [
     {
       "name": "example",

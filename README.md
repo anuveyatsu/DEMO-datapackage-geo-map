@@ -1,9 +1,15 @@
-Example Geo DataPackage for United kingdom, demostrating how to package up GeoJSON data.
+This is an example Data Package, that demonstrates how to package up GeoJSON data and display it on the map. We are using GeoJSON data for United Kingdom.
 
-### GeoJSON
+### Views
 
-Packagin and publishing you GeoJSON data is simple as follows:
+We assume that you are familiar with what [datapackage.json][datapackage.json] is and it's specifications.
 
-<script src="https://gist.github.com/zelima/015793a247c11c46fec126cfe4d2e135.js"></script>
+To display your GeoJSON data on the map you should define path to your data inside resources and set format attribute to `geojson`. See example datapackage.json:
 
-You should set `path` attribute inside resources to be path to your GeoJSON data (line 13) and set `format` attribute to `geojson`
+{{ datapackage.json }}
+
+Note: We are currently not supporting the TopoJSON format. You can use "Vega Graph Spec" and display you TopoJSON data using [Vega][vega] specification. See our [example Data Package][topo]
+
+[datapackage.json]: http://specs.frictionlessdata.io/data-package/#specification
+[topo]: /examples/vega-views-tutorial-topojson
+[vega]: https://vega.github.io/vega/
