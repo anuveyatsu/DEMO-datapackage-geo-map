@@ -1,4 +1,4 @@
-This is an example Data Package that demonstrates how to package up GeoJSON data and display it on the map. We are using GeoJSON data for United Kingdom.
+This is an example dataset that demonstrates how to package up GeoJSON data and display it on the map. We are using GeoJSON data for United Kingdom.
 
 ### Views
 
@@ -22,7 +22,7 @@ To display your GeoJSON data on the map you should define path to your data insi
 }
 ```
 
-Note: We are currently not supporting the TopoJSON format. You can use "Vega Graph Spec" and display you TopoJSON data using [Vega][vega] specification. See our [example Data Package][topo]
+Note: We are currently not supporting the TopoJSON format. You can use "Vega Graph Spec" and display you TopoJSON data using [Vega][vega] specification. See our [example dataset][topo]
 
 [datapackage.json]: http://specs.frictionlessdata.io/data-package/
 [topo]: /examples/vega-views-tutorial-topojson
